@@ -1,0 +1,48 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build artifacts
+bin/
+obj/
+build/
+dist/
+*.log
+*.toc
+*.aux
+*.out
+
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+venv/
+.env
+.env.local
+
+# Compiled files
+*.class
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.pdb
+*.idb
+*.ilk
+
+# Local development files
+*.local
+*.bak
+*.tmp
