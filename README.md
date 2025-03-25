@@ -1,4 +1,4 @@
-# ML Recipe Lab
+# Machine Learning from Scratch
 
 This project provides implementations of basic machine learning algorithms from scratch, focusing on linear regression and logistic regression. It is designed as an educational tool to understand the inner workings of these models and the optimization techniques like gradient descent.
 
