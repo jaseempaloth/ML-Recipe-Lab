@@ -1,6 +1,7 @@
 from sklearn.datasets import make_regression
 from sklearn.model_selection import train_test_split
 from model import LinearRegression
+import jax
 
 # Generate synthetic data
 X, y = make_regression(n_samples=1000, n_features=100, noise=0.1, random_state=42)

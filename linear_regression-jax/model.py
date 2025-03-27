@@ -26,8 +26,9 @@ class LinearRegression:
                 print(f"Iteration {i}, Validation Loss: {val_loss}")
             
             grads = self.grad_fn(self.params, X_train, y_train)
-            self.params['w'] -= learning_rate * grads['w']
-            self.params['b'] -= learning_rate * grads['b']
+            self.params = jax.tree_map(
+                lambda p, g: p - learning_rate * g, self.params, grads
+                )
         
         return history
 
